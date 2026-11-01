@@ -1,0 +1,133 @@
+media:
+  input: media
+  output: /media
+  extensions: [png, jpg, jpeg, webp, svg]
+
+content:
+  - name: site
+    label: Website content
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: brand
+        label: Brand identity
+        type: object
+        fields:
+          - name: name
+            label: Company name
+            type: string
+          - name: tagline
+            label: Tagline
+            type: string
+          - name: email
+            label: Contact email
+            type: string
+      - name: home
+        label: Homepage
+        type: object
+        fields:
+          - name: hero_title
+            label: Main heading
+            type: string
+          - name: hero_description
+            label: Introductory text
+            type: text
+          - name: hero_image
+            label: Hero image
+            type: image
+          - name: introduction_heading
+            label: Introduction heading
+            type: string
+          - name: introduction_text
+            label: Introduction text
+            type: rich-text
+      - name: about
+        label: About page
+        type: object
+        fields:
+          - name: heading
+            label: Page heading
+            type: string
+          - name: body
+            label: Page content
+            type: rich-text
+          - name: image
+            label: Page image
+            type: image
+      - name: services
+        label: Services
+        type: object
+        fields:
+          - name: introduction
+            label: Introduction
+            type: rich-text
+          - name: items
+            label: Service items
+            type: object
+            list: true
+            fields:
+              - name: title
+                label: Service title
+                type: string
+              - name: description
+                label: Description
+                type: text
+              - name: image
+                label: Image
+                type: image
+      - name: partnerships
+        label: Partnerships page
+        type: object
+        fields:
+          - name: heading
+            label: Page heading
+            type: string
+          - name: body
+            label: Page content
+            type: rich-text
+          - name: image
+            label: Page image
+            type: image
+      - name: contact
+        label: Contact page
+        type: object
+        fields:
+          - name: introduction
+            label: Introductory text
+            type: text
+          - name: email
+            label: Contact email
+            type: string
+
+  - name: projects
+    label: Projects
+    type: collection
+    path: content/projects
+    filename: "{primary}.json"
+    format: json
+    fields:
+      - name: title
+        label: Project name
+        type: string
+      - name: status
+        label: Status
+        type: select
+        options:
+          values: [Planning, In progress, Completed]
+      - name: location
+        label: Location
+        type: string
+      - name: summary
+        label: Project description
+        type: rich-text
+      - name: cover
+        label: Cover image
+        type: image
+      - name: gallery
+        label: Project gallery
+        type: image
+        list: true
+      - name: publish
+        label: Show on public website
+        type: boolean
