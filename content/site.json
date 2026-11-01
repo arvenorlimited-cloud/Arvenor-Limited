@@ -1,0 +1,68 @@
+{
+  "brand": {
+    "name": "ARVENOR LIMITED",
+    "tagline": "DESIGNING THE FUTURE, ONE PROPERTY AT A TIME.",
+    "email": "connect@arvenorlimited.com.ng"
+  },
+  "home": {
+    "hero_title": "Designing the future, one property at a time.",
+    "hero_description": "We develop places and spaces for living, working and doing business — bringing property, construction and project thinking together.",
+    "hero_image": "",
+    "introduction_heading": "We develop more than properties.",
+    "introduction_text": "We create the foundations for better places, purposeful spaces and lasting value."
+  },
+  "about": {
+    "heading": "A considered approach to property development",
+    "body": "Arvenor Limited is a property development company working across real estate, building construction and the development of residential, commercial and private spaces. We bring ideas, people and practical expertise together to move projects from intention towards reality.",
+    "image": ""
+  },
+  "services": {
+    "introduction": "Our work spans the property lifecycle — from land and development to construction, interiors and the management of projects and spaces.",
+    "items": [
+      {
+        "title": "Residential development",
+        "description": "Homes, apartments, housing schemes and residential environments shaped around the people who use them.",
+        "image": ""
+      },
+      {
+        "title": "Commercial & business spaces",
+        "description": "Offices, retail environments, workspaces and facilities that support the way organisations operate.",
+        "image": ""
+      },
+      {
+        "title": "Land & real estate",
+        "description": "Land sales, property acquisition, real estate advisory and development opportunities.",
+        "image": ""
+      },
+      {
+        "title": "Construction & supervision",
+        "description": "Building construction, site supervision, contractor coordination and attention to quality on site.",
+        "image": ""
+      },
+      {
+        "title": "Project management",
+        "description": "Planning, coordination, scheduling and oversight to help keep development work organised and accountable.",
+        "image": ""
+      },
+      {
+        "title": "Interiors & space development",
+        "description": "Interior finishing, private spaces, commercial interiors and coworking environments.",
+        "image": ""
+      },
+      {
+        "title": "Renovation & property improvement",
+        "description": "Refurbishment, upgrades and improvements that help existing properties work better.",
+        "image": ""
+      }
+    ]
+  },
+  "partnerships": {
+    "heading": "Development is a shared effort.",
+    "body": "We are open to meaningful collaborations with private investors, landowners, businesses, development partners, technical professionals and public institutions.",
+    "image": ""
+  },
+  "contact": {
+    "introduction": "Tell us what you are looking to develop, build, improve or collaborate on. We would be glad to hear from you.",
+    "email": "connect@arvenorlimited.com.ng"
+  }
+}
